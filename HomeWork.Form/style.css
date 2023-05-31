@@ -1,0 +1,108 @@
+body {
+    font-family: Arial;
+    background-color: #ccccccec;
+}
+
+.name-surname {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.first-p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.second-p {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+
+.form{
+    max-width: 300px;
+    margin: auto;
+   
+}
+
+p{
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 15px;
+}
+
+.date {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+input {
+    display: block;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px rgba(128, 128, 128, 0.982) solid;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 300px;
+}
+
+.submit {
+    display: block;
+    color: grey;
+    font-size: 15px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.or:before {
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 1px;
+    background: grey;
+    vertical-align: middle;
+    margin: 5px;
+    
+}
+
+.or:after {
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 1px;
+    background: grey;
+    vertical-align: middle;
+    margin: 5px;
+    
+}
+
+.or{
+    text-align: center;
+}
+
+
+.facebook{
+    margin: auto;
+    display: block;
+    color: grey;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(14, 14, 192, 0.736);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 300px;
+    cursor: pointer;
+}
